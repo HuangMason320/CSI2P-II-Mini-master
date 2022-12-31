@@ -1,0 +1,20 @@
+((((x))))=(y)=(((((z)))))++;
+--(x);
+y=-5---x+++z;
+
+
+Compile Error!
+
+((((x))))=(y)=(((((z)))))++;
+load r0 [0]
+load r1 [4]
+load r2 [8]
+add r2 1 r2
+store [4] r2
+store [0] r2
+--(x);
+load r0 [0]
+sub r0 r0 1
+store [0] r0
+y=-5---x+++z;
+Compile Error!

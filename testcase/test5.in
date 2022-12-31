@@ -1,0 +1,77 @@
+y+5*x-2+z*3;
+x=5;
+y=6;
+x=(3+5)-8*(10/2);
+y=x*x-(12*12);
+z=z/z+(+-+-+-+-z-z)+(x*z)%z+(y+z)*0-x*y;
+x=(-y*-y-(y*y-4*x*z))/(2*x*2*x);
+
+
+x, y, z = -880, 880, 28161
+Total cycle = 1450
+
+load r1 [4]
+add r3 0 5
+load r0 [0]
+mul r4 r3 r0
+add r3 r1 r4
+add r4 0 2
+sub r5 r3 r4
+load r2 [8]
+add r3 0 3
+mul r4 r2 r3
+add r3 r5 r4
+add r4 0 5
+store [0] r4
+add r5 0 6
+store [4] r5
+load r0 [0]
+add r6 0 3
+add r7 0 5
+add r8 r6 r7
+add r6 0 8
+add r7 0 10
+add r9 0 2
+div r10 r7 r9
+mul r7 r6 r10
+sub r6 r8 r7
+store [0] r6
+load r1 [4]
+load r0 [0]
+mul r7 r0 r0
+add r8 0 12
+add r9 0 12
+mul r10 r8 r9
+sub r8 r7 r10
+store [4] r8
+div r7 r2 r2
+sub r9 r2 r2
+add r10 r7 r9
+mul r7 r0 r2
+rem r9 r7 r2
+add r7 r10 r9
+load r1 [4]
+add r9 r1 r2
+add r10 0 0
+mul r11 r9 r10
+add r9 r7 r11
+mul r7 r0 r1
+sub r10 r9 r7
+store [8] r10
+sub r1 0 r1
+sub r1 0 r1
+mul r7 r1 r1
+mul r9 r1 r1
+add r11 0 4
+mul r12 r11 r0
+load r2 [8]
+mul r11 r12 r2
+sub r12 r9 r11
+sub r9 r7 r12
+add r7 0 2
+mul r11 r7 r0
+add r7 0 2
+mul r12 r11 r7
+mul r7 r12 r0
+div r11 r9 r7
+store [0] r11
